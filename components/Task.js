@@ -6,7 +6,7 @@ const Task = (props) => {
     <View style={styles.item}>
       <View style={styles.itemLeft}>
         <View style={styles.square}></View>
-        <Text style={styles.itemText}>{props.text}This is a task</Text>
+        <Text style={styles.itemText}>{props.text}</Text>
       </View>
       <View style={styles.circular}></View>
     </View>
